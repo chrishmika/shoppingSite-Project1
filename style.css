@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+/* #021024
+#052659
+#5483B3
+#7DA0CA
+#C1E8FF */
+
+header {
+  background-color: #021024;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 200%;
+}
+body {
+  margin-top: 10px;
+  border-radius: 5px;
+  font-family: Roboto;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: #021024;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: auto;
+
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: #021024;
+  font-weight: none;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+
+div {
+  margin-top: 15px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.layer1 {
+  display: block;
+  border: 1px solid #021024;
+  overflow: hidden;
+  padding: 15px 0 15px 0;
+}
+
+.layer2 {
+  text-align: center;
+  color: white;
+  background-color: #021024;
+  margin: 10px;
+}
+.layer3 {
+  padding-top: 20px;
+  text-align: center;
+  margin: 20px;
+  background-color: #05275942;
+}
+#price {
+  border-radius: 5px;
+  border-color: #021024;
+  padding-right: 20px;
+  width: 300px;
+  height: 50px;
+}
+#newDetail {
+  padding: 30px;
+}
+.button1 {
+  color: white;
+  background-color: #021024;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  border: none;
+}
+
+.layer4 {
+  padding: 50px;
+  background-color: #05275942;
+}
+.caption {
+  font-size: 40px;
+  margin-top: 30px;
+}
+table {
+  text-align: center;
+  width: 30%;
+  height: 60%;
+  padding: 20px;
+}
+td {
+  padding: 10px;
+}
+
+.navigationL {
+  list-style-type: none;
+  text-align: left;
+}
+.social {
+  width: auto;
+  height: auto;
+}
+.social:hover {
+  width: 3.5%;
+  transition-duration: 0.5s;
+  height: auto;
+}
+.activeTab {
+  border-radius: 5px;
+  background-color: #021024;
+  color: white;
+  padding: 15px;
+}
+#naviMenue {
+  font-weight: bold;
+  border-radius: 5px;
+  padding-right: 15px;
+  margin-right: 10px;
+  float: inline-end;
+  border-right: 2px solid #021024;
+  border-radius: 0px;
+}
+#naviMenue :hover {
+  border-radius: 5px;
+  background-color: #021024;
+  color: white;
+  padding: 15px;
+}
+
+.column {
+  align-self: center;
+  background-color: white;
+  float: left;
+  width: 22%;
+  padding: 15px;
+  text-align: center;
+  color: #052759;
+}
+.mostSelling {
+  font-size: 40px;
+  padding-left: 15px;
+}
+.outerColumn {
+  display: flex;
+  background-color: #c1e8ff84;
+  padding: 40px 0 75px 0;
+}
+.row ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.introtypes {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.introtypes:hover {
+  width: 110%;
+}
